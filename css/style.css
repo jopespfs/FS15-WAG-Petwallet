@@ -2,13 +2,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+  outline: 1px solid salmon;
+  outline-offset: -1px;
 }
 
 #warning-retract{
   background-color: #faab43;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem 0;
 }
 
 #warning-retract p{
   color: white;
+  margin-left: 1.25rem;
+}
+
+header{
+  padding: 0 1.875rem;
+}
+
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  height: 3.5rem;
+}
+
+header nav > div{
+  display: flex;
+  align-items: center;
+}
+
+header nav > div:first-child ul{
+  display: flex;
+}
+
+header nav > div:last-child ul{
+  display: none;
+}
+
+header nav .header-select-title{
+  display: flex;
 }
